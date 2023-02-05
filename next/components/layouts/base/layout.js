@@ -17,9 +17,9 @@ export default function Layout({ children, page }) {
         <meta property="og:image" content="/images/portait.jpg" key="ogimage" />
         <title>Alexlikeart | {page}</title>
       </Head>
-      <div className="min-h-screen">
+      <div className="tt-transition tt-boxed tt-smooth-scroll tt-magic-cursor">
         {/* <Header /> */}
-        <main className="flex-1 mx-auto">{children}</main>
+        <main className="body-inner">{children}</main>
         <Footer />
       </div>
     </>
